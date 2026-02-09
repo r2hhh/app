@@ -1,1 +1,101 @@
+@ -1,100 +0,0 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Palace Discord - 😈</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 
+<style>
+body{
+  margin:0;
+  background:#0a0a0f;
+  color:white;
+  font-family:'Poppins',sans-serif;
+}
+.container{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+.card{
+  background:#111326;
+  padding:40px;
+  border-radius:18px;
+  box-shadow:0 0 25px rgba(130,87,229,.6);
+  max-width:650px;
+}
+h1{
+  font-size:40px;
+  margin-bottom:10px;
+}
+.desc{
+  color:#cfcfcf;
+  font-size:18px;
+}
+.btn{
+  margin-top:35px;
+  background:#5865F2;
+  padding:16px 40px;
+  border-radius:10px;
+  color:white;
+  font-size:20px;
+  text-decoration:none;
+  transition:0.3s;
+  display:inline-block;
+}
+.btn:hover{
+  background:#4755d8;
+  transform:scale(1.04);
+}
+.footer{
+  margin-top:45px;
+  color:#aaa;
+  font-size:14px;
+}
+</style>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1383716853246156');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1383716853246156&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+</head>
+
+<body>
+
+<div class="container">
+  <div class="card">
+    <h1>Entrá al Discord más Picante 😈</h1>
+    <p class="desc">
+      Comunidad activa, contenido exclusivo, sorteos y mas!
+    </p>
+
+    <a href="https://discord.gg/gZaa5MY57z" class="btn" onclick="fbq('track','Lead');">
+      🔥 UNIRME AL DISCORD
+    </a>
+
+    <div class="footer">
+      Comunidad privada – Acceso limitado
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
